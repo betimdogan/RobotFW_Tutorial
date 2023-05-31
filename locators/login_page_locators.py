@@ -1,0 +1,12 @@
+#Login Page Elements
+login_button = "xpath=//p[contains(text(), 'Giriş Yap')]"
+logout_button = "xpath = //a[contains(text(),'Çık')]"
+username_input = "//input[@id='life']"
+password_input = "//input[@id='lifp']"
+login_button2 = "//input[@id='lfb']"
+user_icon = "xpath=//div[contains(@class, 'link account-user')]"
+hello_text = "xpath=//a[contains(text(), 'Merhaba')]"
+error_message1 = "xpath=//p[contains(text(),'Lütfen şifrenizi yazın.')]"
+error_message2 = "xpath=//p[contains(text(),'Böyle bir kullanıcı yok.')]"
+error_message3 = "xpath=//p[contains(text(),'Lütfen e-posta adresinizi yazın.')]"
+error_message4 = "xpath=//p[contains(text(),'Şifre doğru değil.')]"
